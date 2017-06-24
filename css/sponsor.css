@@ -1,0 +1,60 @@
+body {
+  width: 100%;
+  height: 100%;
+  background: url(../images/nebula2.jpg) no-repeat center center fixed;
+  background-size: cover;
+  background-position: center bottom;
+  z-index: 1;
+}
+
+.background-container {
+  left: 0;
+  top:  56px;
+  background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.03) 100%);
+  background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.03) 100%);
+  background: -ms-linear-gradient(top, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.03) 100%);
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.card {
+	background-color: rgba(0, 0, 0, 0.05) !important;
+	letter-spacing: 0.1px;
+}
+
+.card-image img {
+	width: 43% !important;
+	margin: auto;
+}
+
+.card-action {
+	color: white;
+}
+
+.want {
+	letter-spacing: 0.7px; 
+	padding-bottom: 2%;
+	border-bottom: #FDB515 2px solid;
+	line-height: 1.2;
+	text-align: center;
+}
+
+.donorlist {
+  list-style-type: none;
+  column-count: 2;
+}
+
+.page-footer {
+	background-color: transparent !important;
+}
+
+.page-footer ul li {
+	display: inline;
+}
+
+.icon {
+	width: 35px;
+	height: auto;
+	margin: 7px;
+}
