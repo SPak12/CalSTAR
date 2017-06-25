@@ -35,3 +35,7 @@ nav ul a {
   padding-top: 5%;
   width: 30% !important;
 }
+
+.page-footer {
+  background-color: transparent !important;
+}
