@@ -1,0 +1,58 @@
+body {
+  width: 100%;
+  height: 100%;
+  background: url(../images/moon.jpg) no-repeat center center fixed;
+  background-size: cover;
+  background-position: left top;
+  z-index: 1;
+}
+
+.background-container {
+  left: 0;
+  top:  56px;
+  background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.03) 100%);
+  background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.03) 100%);
+  background: -ms-linear-gradient(top, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.03) 100%);
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+h3 {
+    color: #FDB515;
+    text-align: center;
+}
+
+h4 {
+    color: #FDB515;
+}
+
+.divider {
+    background-color: #FDB515 !important;
+}
+
+.URSA {
+    margin-top: 20px;
+    width: 300px;
+    height: auto;
+}
+
+.acronym {
+    font-size: 32px;
+    color: #FDB515;
+}
+
+b {
+    color: #FDB515;
+}
+
+.URSA-acronym {
+    font-size: 18px;
+    color: white;
+}
+
+.URSA-description {
+    color: white;
+    padding-left: 20px;
+    border-left: #FDB515 solid 1px;
+}
